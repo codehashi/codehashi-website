@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} Codehashi, built in a rush with
+          © {new Date().getFullYear()} Codehashi, built with sticks and
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
