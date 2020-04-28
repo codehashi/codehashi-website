@@ -1,18 +1,22 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <div style={{ maxWidth: `800px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
-  </Layout>
-)
+const IndexPage = ({ transitionStatus }) => {
+  useEffect(() => {}, [transitionStatus])
+  return transitionStatus === "exiting" ? (
+    <Layout></Layout>
+  ) : (
+    <Layout>
+      <SEO title="Home" />
+      <h1>
+        Hello World! CodeHashi is a software house based in Campinas-SP. We love
+        to code!
+      </h1>
+    </Layout>
+  )
+}
 
 export default IndexPage

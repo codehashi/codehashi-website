@@ -1,0 +1,12 @@
+.icons {
+  display: flex;
+}
+.icon {
+  flex: 1;
+  margin-right: 5em;
+  color: "red";
+  outline: 0;
+}
+.icon:hover {
+  color: "red";
+}
