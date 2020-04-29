@@ -65,7 +65,7 @@ const Header = ({ siteTitle, location }) => {
                 textDecorationColor: "#000",
               }}
             >
-              Trabalhe
+              Trabalhe Conosco
             </AniLink>
           </Nav.Link>
         </Nav>

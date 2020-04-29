@@ -13,7 +13,7 @@ import Header from "./Header/header"
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 
 import styles from "./layout.module.css"
-
+import {Container} from 'react-bootstrap';
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -28,9 +28,11 @@ const Layout = ({ children, location }) => {
   return (
     <div className={styles.body}>
       <Header siteTitle={data.site.siteMetadata.title} location={location} />
-      <div className={styles.main}>
-        <main>{children}</main>
-      </div>
+        <Container>
+          <main>
+            {children}
+          </main>
+        </Container>
     </div>
   )
 }

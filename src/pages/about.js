@@ -9,7 +9,9 @@ const About = ({ transitionStatus }) => {
   ) : (
     <Layout>
       <SEO title="Sobre" />
-      <h1>Fundada em 2019 pelo Ricardo Keigo, teste</h1>
+      <h1 className="my-5">Sobre</h1>
+      <p>Fundada em 2019, somos uma empresa especializada no desenvolvimento de sistemas e aplicativos sob medida, 
+        que atende a clientes nacionais e internacionais, com foco em aplicações Web/IoT em diversos segmentos. O que nos diferencia? A arte de fazer código.</p>
     </Layout>
   )
 }

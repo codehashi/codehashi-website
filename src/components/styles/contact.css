@@ -1,0 +1,41 @@
+.form-contact .input, .form-contact textArea{
+    background-color: rgba(190, 22, 22, 0.3);
+    border: 0;
+}
+
+.form-contact .input:focus, .form-contact textArea:focus{
+    background-color: rgba(190, 22, 22, 0.3);
+}
+
+.form-contact button{
+    color: #BC1414;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.form-contact button:hover {
+    color: #BC1414;
+    background-color: transparent;
+}
+
+.form-contact textarea{
+    resize: none;
+}
+
+.input-icon{
+    top: 34px;
+    left: 10px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+input[type="file"] + label {
+    background-color: #BC1414;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    color: #fbfbfb;
+    cursor: pointer;
+}
