@@ -19,7 +19,7 @@ const Header = ({ siteTitle, location }) => {
     <Navbar collapseOnSelect expand="lg" className={styles.header}>
       <Navbar.Brand>
         <AniLink cover to="/" direction="right" bg="#BE1616">
-          <img src={logo} className={styles.logo}></img>
+          <img src={logo} alt="Codehashi" title="Codehashi" className={styles.logo}></img>
         </AniLink>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

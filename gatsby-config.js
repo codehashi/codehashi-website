@@ -1,10 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Codehashi`,
+    description: `Somos uma empresa especializada no desenvolvimento de sistemas e aplicativos sob medida`,
+    author: `@codehashi`,
+    siteUrl: `https://www.codehashi.com/`
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-react-helmet`,
     {
