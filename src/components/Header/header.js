@@ -12,11 +12,11 @@ import TransitionPortal from "gatsby-plugin-transition-link/components/Transitio
 import { Location } from "@reach/router"
 
 const Header = ({ siteTitle, location }) => {
-  useEffect(() => {
-    console.log("Location: ", location)
-  }, [])
+  // useEffect(() => {
+  //   console.log("Location: ", location)
+  // }, [])
   return (
-    <Navbar collapseOnSelect expand="lg" className={styles.header}>
+    <Navbar collapseOnSelect expand="md" className={`${styles.header} shadow`}>
       <Navbar.Brand>
         <AniLink cover to="/" direction="right" bg="#BE1616">
           <img src={logo} alt="Codehashi" title="Codehashi" className={styles.logo}></img>
@@ -36,7 +36,7 @@ const Header = ({ siteTitle, location }) => {
                 textDecorationColor: "#000",
               }}
             >
-              Sobre
+              About
             </AniLink>
           </Nav.Link>
 
@@ -51,9 +51,25 @@ const Header = ({ siteTitle, location }) => {
                 textDecorationColor: "#000",
               }}
             >
-              Contato
+              Contact
             </AniLink>
           </Nav.Link>
+
+          <Nav.Link>
+            <AniLink
+              cover
+              to="/clients"
+              bg="#BE1616"
+              activeStyle={{
+                textDecoration: "underline",
+                color: "#BE1616",
+                textDecorationColor: "#000",
+              }}
+            >
+              Clients
+            </AniLink>
+          </Nav.Link>
+
           <Nav.Link>
             <AniLink
               cover
@@ -65,7 +81,7 @@ const Header = ({ siteTitle, location }) => {
                 textDecorationColor: "#000",
               }}
             >
-              Trabalhe Conosco
+              Careers
             </AniLink>
           </Nav.Link>
         </Nav>

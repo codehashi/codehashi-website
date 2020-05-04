@@ -9,7 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./Header/header"
+import Header from "./Header/header";
+import Footer from './Footer/footer';
+
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 
 import styles from "./layout.module.css"
@@ -28,11 +30,10 @@ const Layout = ({ children, location }) => {
   return (
     <div className={styles.body}>
       <Header siteTitle={data.site.siteMetadata.title} location={location} />
-        <Container>
           <main>
             {children}
           </main>
-        </Container>
+      <Footer/>
     </div>
   )
 }
