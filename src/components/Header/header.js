@@ -40,7 +40,7 @@ const Header = ({ siteTitle, location }) => {
             </AniLink>
           </Nav.Link>
 
-          <Nav.Link>
+          <Nav.Link className="nav-link">
             <AniLink
               cover
               to="/contact"
@@ -70,7 +70,7 @@ const Header = ({ siteTitle, location }) => {
             </AniLink>
           </Nav.Link>
 
-          <Nav.Link>
+          <Nav.Link className="nav-link">
             <AniLink
               cover
               to="/work"
