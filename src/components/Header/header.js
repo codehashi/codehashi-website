@@ -25,7 +25,6 @@ const Header = ({ siteTitle, location }) => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
         <Nav className={styles.nav}>
-          <Nav.Link>
             <AniLink
               cover
               to="/about"
@@ -38,9 +37,7 @@ const Header = ({ siteTitle, location }) => {
             >
               About
             </AniLink>
-          </Nav.Link>
 
-          <Nav.Link className="nav-link">
             <AniLink
               cover
               to="/contact"
@@ -53,9 +50,7 @@ const Header = ({ siteTitle, location }) => {
             >
               Contact
             </AniLink>
-          </Nav.Link>
 
-          <Nav.Link>
             <AniLink
               cover
               to="/clients"
@@ -68,9 +63,7 @@ const Header = ({ siteTitle, location }) => {
             >
               Clients
             </AniLink>
-          </Nav.Link>
 
-          <Nav.Link className="nav-link">
             <AniLink
               cover
               to="/work"
@@ -83,7 +76,6 @@ const Header = ({ siteTitle, location }) => {
             >
               Careers
             </AniLink>
-          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
