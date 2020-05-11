@@ -31,7 +31,7 @@ const IndexPage = ({ transitionStatus }) => {
               <h2>Hello World!</h2>
               <p>CodeHashi is a <b>software house</b> based in Campinas-SP. We love
               to code!</p>
-              <a href="mailto:codehashi@codehashi.com.br" target="_blank" className="btn btn-lg w-25">Contact Us</a>
+              <a href="mailto:codehashi@codehashi.com.br" target="_blank" className="btn btn-lg">Contact Us</a>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -41,10 +41,9 @@ const IndexPage = ({ transitionStatus }) => {
           </video>
           <Carousel.Caption>
             <div>
-                <h2>Hello World!</h2>
-                <p>CodeHashi is a software house based in Campinas-SP. We love
-                to code!</p>
-                <a href="mailto:codehashi@codehashi.com.br" target="_blank" className="btn btn-lg w-25">Contact Us</a>
+                <h2>More Than Software!</h2>
+                <p>We turning <b>your dreams possible!</b></p>
+                <a href="mailto:codehashi@codehashi.com.br" target="_blank" className="btn btn-lg">Contact Us</a>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,10 +53,10 @@ const IndexPage = ({ transitionStatus }) => {
             </video>
             <Carousel.Caption>
               <div>
-                  <h2>Hello World!</h2>
-                  <p>CodeHashi is a software house based in Campinas-SP. We love
-                  to code!</p>
-                  <a href="mailto:codehashi@codehashi.com.br" target="_blank" className="btn btn-lg w-25">Contact Us</a>
+                  <h2>The Art Of Make Code!</h2>
+                  <p>Through agile methodologies <b>we valuing the inclusion of our clients on all development process</b><br/>
+                    We work this transparent way, excluding the lack of communication and bad understanding of solutions </p>
+                  <a href="mailto:codehashi@codehashi.com.br" target="_blank" className="btn btn-lg">Contact Us</a>
               </div>
             </Carousel.Caption>
         </Carousel.Item>
