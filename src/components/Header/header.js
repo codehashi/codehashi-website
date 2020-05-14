@@ -38,7 +38,19 @@ const Header = ({ siteTitle, location }) => {
               About
             </AniLink>
 
-            <AniLink
+              <AniLink
+               cover
+               to="/clients"
+               bg="#BE1616"
+               activeStyle={{
+                 textDecoration: "underline",
+                 color: "#BE1616",
+                 textDecorationColor: "#000",
+               }}
+             >
+               Clients
+             </AniLink>
+            {/* <AniLink
               cover
               to="/contact"
               bg="#BE1616"
@@ -49,22 +61,10 @@ const Header = ({ siteTitle, location }) => {
               }}
             >
               Contact
-            </AniLink>
+            </AniLink> */}
 
-            <AniLink
-              cover
-              to="/clients"
-              bg="#BE1616"
-              activeStyle={{
-                textDecoration: "underline",
-                color: "#BE1616",
-                textDecorationColor: "#000",
-              }}
-            >
-              Clients
-            </AniLink>
 
-            <AniLink
+           <AniLink
               cover
               to="/work"
               bg="#BE1616"

@@ -28,9 +28,9 @@
     opacity: unset !important;
 }
 
-.carousel-caption .btn{
-    background-color: #A60303;
-    color: #fff;
+.carousel-caption .btn, .main-button{
+    background-color: #A60303 !important;
+    color: #fff !important;
     border-radius: 0 !important;
 }
 

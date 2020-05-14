@@ -1,8 +1,14 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaUser, FaPhone, FaCommentAlt, FaEnvelope, FaBriefcase } from 'react-icons/fa';
-import { Form, Button, Container }  from 'react-bootstrap';
+import { Container, Row }  from 'react-bootstrap';
+import Divider from '../components/Common/Divider';
+import aws from '../images/aws.png';
+import dynamodb from '../images/dynamodb-icon.png';
+import mongodb from '../images/mongodb.png';
+import materialui from '../images/materialui.png';
+import nodejs from '../images/nodejs.png';
+import reactjs from '../images/reactjs.png'
 
 const Work = ({ transitionStatus }) => {
 
@@ -20,32 +26,39 @@ const Work = ({ transitionStatus }) => {
     <Layout>
       <SEO title="Trabalhe conosco"></SEO>
       <Container>
-
-        <div>
-          <h1>Trabalhe conosco!</h1>
+        <div className="my-5">
+          <h1>Work Us!</h1>
+          <Divider/>
+          <h2>How Is Our Daily</h2>
+          <p>We work in Home Office, this provides more flexibility to our team. 
+            For us unforeseen time and distance are not obstacles, our team is 
+            always connected,</p>
         </div>
-        <div className="mt-4 col-lg-7 offset-lg-1">
-          <Form className="form-contact mb-5">
-            <div>
-              <FaUser size={20} className="position-relative input-icon"/><input className="input form-control pl-5 py-4 rounded-0" placeholder="Nome" name="name"/>
+          <h2>What Technologies We Use</h2>
+          <p>Our team use ever the technologies most current of I.T market, objetiving turn innovation not only a goal but a daily reality</p>
+          <Row>
+            <div className="col-md-2 d-flex align-items-center justify-content-center">
+              <img className="img-fluid w-75" src={nodejs} alt="Node.JS"/>
             </div>
-            <div>
-              <FaPhone size={20} className="position-relative input-icon"/><input className="input form-control pl-5 py-4 rounded-0" placeholder="Telefone" name="phone"/>
+            <div className="col-md-2 d-flex align-items-center justify-content-center">
+              <img className="img-fluid w-75" src={mongodb} alt="MongoDB"/>
             </div>
-            <div>
-              <FaEnvelope size={20} className="position-relative input-icon"/><input className="input form-control pl-5 py-4 rounded-0" placeholder="E-Mail" name="email" type="email"/>
-            </div>          
-            <div>
-              <FaBriefcase size={20} className="position-relative input-icon"/><input className="input form-control pl-5 py-4 rounded-0" placeholder="Cargo Pretendido" name="email" type="email"/>
+            <div className="col-md-2 d-flex align-items-center justify-content-center">
+              <img className="img-fluid w-75" src={materialui} alt="Material UI"/>
             </div>
-            <div>
-              <FaCommentAlt size={20} className="position-relative input-icon"/><textarea className="input form-control pl-5 py-2 rounded-0" placeholder="Mensagem (Opcional)" rows="10" name="msg"/>
-              <input onChange={(e) => handleChange(e)} id="doc" className="mt-3" type="file" accept="application/pdf"/>
-              <label for="doc">Selecione seu currículo...</label><label className="ml-1">{selectedFile}</label>
+            <div className="col-md-2 d-flex align-items-center justify-content-center">
+              <img className="img-fluid w-75" src={dynamodb} alt="Dynamo DB"/>
             </div>
-              <Button variant="outline-secondary" type="submit" size="lg" className="w-100 mt-3 py-3 rounded">Enviar</Button>
-          </Form>
-        </div>
+            <div className="col-md-2 d-flex align-items-center justify-content-center">
+              <img className="img-fluid w-75" src={aws} alt="AWS"/>
+            </div>
+            <div className="col-md-2 d-flex align-items-center justify-content-center">
+              <img className="img-fluid w-75" src={reactjs} alt="React JS and Native"/>
+            </div>
+          </Row>
+          <Row className="my-5 justify-content-center">
+            <a target="_blank" href="mailto:codehashi@codehashi.com.br" className="btn btn-lg main-button py-3 px-5 w-25">Work Us</a>
+          </Row>
       </Container>
     </Layout>
   )

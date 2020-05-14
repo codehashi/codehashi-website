@@ -1,7 +1,8 @@
-import React, { useEffect } from "react"
+import React from "react";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container } from "react-bootstrap"
+import Divider from '../components/Common/Divider';
 
 const About = ({ transitionStatus }) => {
   return transitionStatus === "exiting" ? (
@@ -9,10 +10,11 @@ const About = ({ transitionStatus }) => {
   ) : (
     <Layout>
       <Container>
-        <SEO title="Sobre" />
-        <h1 className="my-5">Sobre</h1>
-        <p>Fundada em 2019, somos uma empresa especializada no desenvolvimento de sistemas e aplicativos sob medida, 
-          que atende a clientes nacionais e internacionais, com foco em aplicações Web/IoT em diversos segmentos. O que nos diferencia? A arte de fazer código.</p>
+        <SEO title="About" />
+        <h1 className="mt-5">About</h1>
+        <Divider/>
+        <p>Founded in 2019, we are a business specialized on development of tailored software and app's, which meeting national and international
+          clients, with focus on Web/IoT application in various market sectors. What sets us apart?? The art of make code!</p>
       </Container>
     </Layout>
   )
