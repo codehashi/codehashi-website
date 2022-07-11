@@ -2,11 +2,10 @@ import React from "react"
 import Image from "../components/image"
 import { graphql } from "gatsby"
 
-export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+export default function Template({ data }) {
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
+
   return (
     <div
       className="container"
@@ -27,6 +26,7 @@ export default function Template({
     </div>
   )
 }
+
 export const pageQuery = graphql`
   query($id: String!) {
     markdownRemark(id: { eq: $id }) {
