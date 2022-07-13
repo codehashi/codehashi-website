@@ -15,29 +15,21 @@ Estamos em busca de pessoas para **Estágio em Desenvolvimento Web e/ou Mobile**
 ## Pré-requisitos
 
 - Graduação em andamento
-
 - Disponibilidade para trabalhar de 4 a 6 horas diárias (20 a 30 horas semanais)
-
 - Pessoas dispostas a trabalhar em equipe
-
 - Inglês intermediário ou avançado para leitura e escrita (código todo em inglês)
-
 - Pelo menos um repositório público no Github ou serviços semelhantes. Aceita-se trabalhos desenvolvidos durante o curso
-
 - Gostar de escrever
 
 ## Desejável
 
 - Conhecimento em boas práticas de programação
-
 - Experiência com desenvolvimento em projetos fora da faculdade, tais como projetos de código-aberto, experiências em outras empresas ou projetos pessoais
-
 - Familiaridade com as tecnologias Javascript e/ou Flutter
 
 ## Diferencial
 
 - Vontade de aprender
-
 - Pró atividade
 
 ## Atuação na empresa
@@ -63,13 +55,9 @@ Dessa forma o estágio pode ainda colaborar com atividades de iniciação cient�
 ## Benefícios
 
 - Seguro de vida
-
 - Flexibilidade de horários
-
 - Férias de 30 dias a cada 12 meses
-
 - Política de ausências remuneradas
-
 - Notebook da empresa
 
 ## Por que ser time Codehashi?
@@ -84,9 +72,13 @@ Ao final do estágio, o aluno estará pronto para atuar no mercado de trabalho, 
 Envie um email para *recrutamento@codehashi.com.br* com o assunto _**Codehashi - Estágio 2022**_ contendo as seguintes informações:
 
 - Um pequeno texto de apresentação, que pode ser o próprio corpo do e-mail
-
 - Currículo e/ou perfil no LinkedIn
-
 - Link para perfil no GitHub ou serviço semelhante
 
-**Atenção**: Consulte junto a sua instituição de ensino se o estágio já é possível para o período/semestre que está cursando.
+**Atenção:** Consulte junto a sua instituição de ensino se o estágio já é possível para o período/semestre que está cursando. Em muitos casos, a quantidade de horas permitida pela instituição, considerando as aulas, acaba sendo pequena demais. Tenha certeza que consegue fazer pelo menos 20 horas por mês.
+
+## Como é ser estagiário na codehashi?
+
+“O trabalho é 100% remoto, bom relacionamento entre os colaboradores, flexibilidade, pair programming e compartilhamento de conhecimento. Tudo isso torna a empresa muito boa para quem está começando.” _Alessandra Barros_
+
+“Existe a liberdade de montar o seu próprio horário, transparência no que acontece na empresa e participação ativa de todos, todos têm voz.” _Beatriz Alice_
