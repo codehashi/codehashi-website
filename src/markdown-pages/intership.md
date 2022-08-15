@@ -2,6 +2,7 @@
 slug: "/estagio"
 date: "2022-07-08"
 title: "Programa de Estágio 2022"
+hidden: true
 ---
 
 ## Sobre a Codehashi

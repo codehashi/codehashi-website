@@ -1,10 +1,19 @@
 import React from "react"
 import Image from "../components/image"
 import { graphql } from "gatsby"
+import { navigate } from "@reach/router"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
+
+  React.useEffect(() => {
+    if (frontmatter.hidden) {
+      navigate("/404")
+    }
+  }, [])
+
+  if (frontmatter.hidden) return null
 
   return (
     <div
@@ -35,6 +44,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        hidden
       }
     }
   }
